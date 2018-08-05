@@ -1,0 +1,75 @@
+const dataarr = [
+   {
+       //id:00001,
+       prod:"plus-circle",
+       taskname:"xxx数据备份",
+       state:"失败",
+       choose:[
+           "终止",
+           "执行记录",
+           "修改配置",
+           "删除任务",
+       ]
+   },
+   {
+    //id:00002,
+    prod:"plus-circle",
+    taskname:"xxx数据备份",
+    state:"失败",
+    choose:[
+        "终止",
+        "执行记录",
+        "修改配置",
+        "删除任务",
+    ]
+},
+{
+    //id:00002,
+    prod:"plus-circle",
+    taskname:"xxx数据备份",
+    state:"失败",
+    choose:[
+        "终止",
+        "执行记录",
+        "修改配置",
+        "删除任务",
+    ]
+},
+{
+    //id:00002,
+    prod:"plus-circle",
+    taskname:"xxx数据备份",
+    state:"失败",
+    choose:[
+        "终止",
+        "执行记录",
+        "修改配置",
+        "删除任务",
+    ]
+},
+{
+    //id:00002,
+    prod:"check-circle",
+    taskname:"xxx数据备份",
+    state:"失败",
+    choose:[
+        "终止",
+        "执行记录",
+        "修改配置",
+        "删除任务",
+    ]
+},
+{
+    //id:00002,
+    prod:"play-circle",
+    taskname:"xxx数据备份",
+    state:"失败",
+    choose:[
+        "终止",
+        "执行记录",
+        "修改配置",
+        "删除任务",
+    ]
+}
+]
+export default dataarr;

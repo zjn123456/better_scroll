@@ -1,0 +1,139 @@
+ @import './m.scss';
+ @charset "utf-8";
+ *{margin: 0;padding:0;box-sizing: border-box;font-size: .14rem;}
+ html,body,.box{
+     width: 100%;
+     height: 100%;
+ }
+ html{
+     font-size: 625%;
+ }
+ @media screen and (min-width:768px){
+     html{
+         font-size: 1300%;
+     }
+ }
+ ol li,ul li{list-style: none;}
+ a{text-decoration: none;color: #000;}
+ i,em{font-style: normal;}
+ %center{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ 
+ #root{
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .header{
+     width: 100%;
+     display: flex;
+     height: 0.3rem;
+ }
+.Shop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.main {
+    flex: 1;
+    display: flex;
+}
+
+.leftWrap {
+    flex: 2;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #F4F4F4;
+}
+
+.leftWrap .left {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.rightWrap {
+    flex: 6;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.right {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.left li {
+    padding: 0.2rem 0.1rem;
+    border-bottom: 0.01rem solid #ECECEC;
+}
+
+.right .listsWrap{
+    width: 100%;
+    position: relative;
+}
+
+.right dl {
+    width: 100%;
+    display: flex;
+}
+
+.right dt {
+    flex: 1;
+    padding: 2%;
+}
+
+.right dt img {
+    width: 100%;
+    padding-top: 0.03rem;
+}
+
+.right dd {
+    flex: 2;
+    margin-left: 0.1rem;
+}
+
+.right dd p {
+    font-size: 0.14rem;
+}
+
+.right dl {
+    margin-left: 2%;
+}
+
+.title h4{
+    border-left: 0.03rem solid #00E44B;
+    padding-left: 0.1rem;
+    line-height: 2;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.num {
+    position: absolute;
+    top: 50%;
+    right: 0.1rem;
+}
+
+.circle{
+    margin:0 0.02rem;
+}
+h5{
+  font-size: 30px;
+  line-height: 50px;
+  padding-left: 10px;
+}

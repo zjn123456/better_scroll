@@ -1,0 +1,10 @@
+@mixin num($w:100%, $h:100%) {
+    width: $w;
+    height: $h;
+}
+
+@mixin flex($j:center) {
+    display: flex;
+    justify-content: $j;
+    align-items: center;
+}
